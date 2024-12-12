@@ -1,6 +1,10 @@
 # Carbon Neutral Website
 
-[Carbon Neutral Website](https://carbonneutralwebsite.org) is a carbon emission calculator that will take into account the power consumption of the devices used to access web pages and web servers, as well as the carbon footprint of the internet infrastructure. It also tells you the amount of trees you should plant to offset the web page's carbon footprint.
+[Carbon Neutral Website](https://carbonneutralwebsite.vercel.app) is a carbon emission calculator that will take into account the power consumption of the devices used to access web pages and web servers, as well as the carbon footprint of the internet infrastructure. It also tells you the amount of trees you should plant to offset the web page's carbon footprint.
+
+
+https://github.com/user-attachments/assets/1ad8cf9f-1ea0-44ea-ae23-72c140e5a88b
+
 
 See the Paper as PDF [public/carbon-neutral-website-research-paper.pdf](https://github.com/aayushmahapatra/carbonneutral/blob/main/public/carbon-neutral-website-research-paper.pdf)
 
