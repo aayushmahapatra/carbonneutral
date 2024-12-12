@@ -1,0 +1,86 @@
+.container {
+  background: #fff;
+}
+
+.hero {
+  width: 100%;
+  min-height: calc(100vh - 230px);
+  background: rgb(242,242,239);
+  background: linear-gradient(180deg, rgba(242,242,239,1) 0%, rgba(242,242,239,1) 71%, rgba(242,242,239,0) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+
+.infoBox {
+  border-radius: 12px;
+  padding: 20px 25px;
+  max-width: 80%;
+  margin:auto;
+  margin-bottom: 15px;
+}
+
+.github {
+  border: 2px solid #101010;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.github:hover {
+  background: #eee;
+}
+
+.github img {
+  margin-right: 5px;
+}
+
+
+@media (max-width: 600px) {
+
+  .infoBox {
+    max-width: calc(100% - 20px);
+  }
+
+  .heroContent h2 {
+    font-size: 28px;
+  }
+
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .heroContent img {
+    position: relative;
+    top: 20px;
+  }
+
+  .heroContent > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
